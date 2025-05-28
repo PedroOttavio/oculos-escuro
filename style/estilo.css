@@ -1,3 +1,37 @@
 .cinza{
     background-color: #d2d2d2;
 }
+
+.imagem-sobreposta{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; 
+     top: 0; 
+   left: 0;
+}
+
+.imagem-sobreposta-titulo-topo{
+    position: absolute; 
+    top: -10px; 
+    left: 0;
+}
+
+.imagem-sobreposta-titulo-bot{
+    position: absolute; 
+    top: 0px; 
+    left: 17px;
+}
+
+.container-imagens-titulo{
+    position: relative; 
+    display: inline-block; 
+    width: 40px; 
+    height: 30px;
+}
+
+/* .imagem-grandona{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+} */
