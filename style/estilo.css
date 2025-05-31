@@ -30,6 +30,10 @@
     height: 30px;
 }
 
+.metade-pra-fora{
+    transform: translateY(100%) translateX(15%);
+}
+
 
 /* .imagem-grandona{
     width: 100%;
