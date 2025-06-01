@@ -34,6 +34,11 @@
     transform: translateY(100%) translateX(15%);
 }
 
+.black{
+    color: black;
+
+}
+
 
 /* .imagem-grandona{
     width: 100%;
