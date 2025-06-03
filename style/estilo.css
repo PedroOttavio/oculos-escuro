@@ -21,6 +21,18 @@
     font-size: 0.95rem;
     
 }
+.fonte-menor-2{
+    font-size: 0.90rem;
+    
+}
+
+.texto-preto{
+    color: black;
+}
+
+.estilo-negrito{
+    font-weight: bolder;
+}
 
 .imagem-sobreposta-titulo-bot{
     position: absolute; 
