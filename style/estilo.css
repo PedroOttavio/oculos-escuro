@@ -17,6 +17,11 @@
     left: 0;
 }
 
+.fonte-menor{
+    font-size: 0.95rem;
+    
+}
+
 .imagem-sobreposta-titulo-bot{
     position: absolute; 
     top: 0px; 
