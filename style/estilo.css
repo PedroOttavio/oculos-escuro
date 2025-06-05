@@ -26,8 +26,18 @@
     
 }
 
+/* parte do texto: */
+
 .texto-preto{
     color: black;
+}
+
+.texto-grande{
+    font-size: 4rem;
+}
+
+.texto-medio{
+    font-size: 1.1rem;
 }
 
 .estilo-negrito{
@@ -55,6 +65,9 @@
     color: black;
 
 }
+
+
+
 
 
 /* .imagem-grandona{
