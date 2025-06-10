@@ -1,0 +1,48 @@
+/* Ícone ao lado do título */
+.icon {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* Linha genérica para representar variáveis no gráfico */
+.bg-secondary {
+    background-color: #dcdcdc !important;
+}
+
+/* Tamanho e arredondamento das bolinhas de perfil */
+.rounded-circle {
+    width: 30px;
+    height: 30px;
+}
+
+/* Ajustes para a imagem do gráfico */
+img.img-fluid {
+    max-height: 250px;
+    object-fit: contain;
+}
+
+/* Estilo das variáveis */
+.tabela-variaveis .linha {
+    height: 30px;
+    background-color: #dcdcdc;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+/* Responsividade extra para o aside em telas menores */
+@media (max-width: 768px) {
+    aside {
+        margin-top: 2rem;
+    }
+}
+
+/* Texto do quadro lateral */
+aside .text-start div {
+    margin-bottom: 10px;
+}
+
+/* Pequeno ajuste visual para suavizar a sombra dos cards (opcional) */
+.bg-light {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+}
