@@ -10,11 +10,21 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-<div class="container-fluid p-4">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-        <h1>EDUCA <span class="icon">📄</span></h1>
-        <div class="rounded-circle bg-secondary" style="width: 30px; height: 30px;"></div>
-    </div>
+<div class="col-12 col-md-10 bg-white mt-4">
+    <!-- parte do titulo e icone -->
+    <h1 class="m-0 mt-4">
+  <span class="d-inline-flex align-items-center">
+    EDUCA
+    <span class="container-imagens-titulo">
+      <img src="../icons/image.png" class="img-fluid imagem-sobreposta-titulo-topo" alt="icone" width="35" height="40" />
+      <img src="../icons/icon_titulo.png" class="img-fluid imagem-sobreposta-titulo-bot" alt="icone" width="24" height="24" />
+    </span>
+  </span>
+    </h1>
+
+
+
+
 
     <div class="row">
         <main class="col-md-8">
@@ -34,14 +44,26 @@
             <section>
                 <h3 class="mb-2">Quadro de variáveis</h3>
                 <div class="bg-light p-3 rounded">
-                    <div class="d-flex justify-content-between fw-bold mb-2">
+                    <div class="d-flex justify-content-between fw-bold mb-3">
                         <span>Variável</span>
                         <span>Impacto</span>
                     </div>
-                    <div class="bg-secondary mb-2 rounded" style="height: 30px;"></div>
-                    <div class="bg-secondary mb-2 rounded" style="height: 30px;"></div>
-                    <div class="bg-secondary mb-2 rounded" style="height: 30px;"></div>
-                    <div class="bg-secondary mb-2 rounded" style="height: 30px;"></div>
+                    <div class="d-flex justify-content-between tabela-item">
+                        <span>Horário das aulas</span>
+                        <span>30%</span>
+                    </div>
+                    <div class="d-flex justify-content-between tabela-item">
+                        <span>Distância da faculdade</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="d-flex justify-content-between tabela-item">
+                        <span>Dificuldade do curso</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="d-flex justify-content-between tabela-item">
+                        <span>Escassez de bolsas e estágios</span>
+                        <span>10%</span>
+                    </div>
                 </div>
             </section>
         </main>
