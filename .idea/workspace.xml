@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84987b94-9474-405f-9337-56f9db700a79" name="Changes" comment="comecando a implementar a pagina de vizu especifica">
-      <change beforePath="$PROJECT_DIR$/html/vizu-especifico.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/vizu-especifico.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/vizu-especifico.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/vizu-especifico.css" afterDir="false" />
-    </list>
+    <list default="true" id="84987b94-9474-405f-9337-56f9db700a79" name="Changes" comment="finalmente consegui fazer o icone" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +44,7 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -80,7 +78,6 @@
     "JavaScript Debug.pagina-inicial.html.executor": "Run",
     "JavaScript Debug.vizu-especifico.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#16 on teste",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -113,7 +110,7 @@
       <updated>1749524990250</updated>
       <workItem from="1749524991312" duration="869000" />
       <workItem from="1749525881138" duration="2080000" />
-      <workItem from="1749574626242" duration="2713000" />
+      <workItem from="1749574626242" duration="3140000" />
     </task>
     <task id="LOCAL-00001" summary="teste commit">
       <option name="closed" value="true" />
@@ -139,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749527784745</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finalmente consegui fazer o icone">
+      <option name="closed" value="true" />
+      <created>1749577686422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749577686422</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +165,7 @@
     <MESSAGE value="teste commit" />
     <MESSAGE value="teste commit branch teste" />
     <MESSAGE value="comecando a implementar a pagina de vizu especifica" />
-    <option name="LAST_COMMIT_MESSAGE" value="comecando a implementar a pagina de vizu especifica" />
+    <MESSAGE value="finalmente consegui fazer o icone" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalmente consegui fazer o icone" />
   </component>
 </project>
