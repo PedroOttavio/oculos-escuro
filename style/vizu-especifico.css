@@ -1,0 +1,83 @@
+.container-imagens-titulo {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+}
+
+.imagem-sobreposta {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.imagem-sobreposta-titulo-topo {
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.imagem-sobreposta-titulo-bot {
+    position: absolute;
+    top: 0px;
+    left: 17px;
+}
+
+
+
+/* Linha genérica para representar variáveis no gráfico */
+.bg-secondary {
+    background-color: #dcdcdc !important;
+}
+
+/* Tamanho e arredondamento das bolinhas de perfil */
+.rounded-circle {
+    width: 30px;
+    height: 30px;
+}
+
+/* Ajustes para a imagem do gráfico */
+img.img-fluid {
+    max-height: 250px;
+    object-fit: contain;
+}
+
+/* Estilo das variáveis (usado quando eram blocos cinzas) */
+.tabela-variaveis .linha {
+    height: 30px;
+    background-color: #dcdcdc;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+/* Responsividade extra para o aside em telas menores */
+@media (max-width: 768px) {
+    aside {
+        margin-top: 2rem;
+    }
+}
+
+/* Texto do quadro lateral */
+aside .text-start div {
+    margin-bottom: 10px;
+}
+
+/* Pequeno ajuste visual para suavizar a sombra dos cards (opcional) */
+.bg-light {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e0e0e0;
+}
+
+/* Estilo das linhas do quadro de variáveis (com texto real) */
+.tabela-item {
+    padding: 6px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 20px;
+}
+
+.tabela-item:last-child {
+    border-bottom: none;
+}

@@ -1,13 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gráfico de Evolução</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <link href="../style/vizu-especifico.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
     <link href="../style/vizu-especifico.css" rel="stylesheet" />
+  
 </head>
 <body>
+<div class="col-12 col-md-10 bg-white mt-4">
+    <!-- parte do titulo e icone -->
+    <h1 class="m-0 mt-4">
+  <span class="d-inline-flex align-items-center">
+    EDUCA
+    <span class="container-imagens-titulo">
+      <img src="../icons/image.png" class="img-fluid imagem-sobreposta-titulo-topo" alt="icone" width="35" height="40" />
+      <img src="../icons/icon_titulo.png" class="img-fluid imagem-sobreposta-titulo-bot" alt="icone" width="24" height="24" />
+    </span>
+  </span>
+    </h1>
 
+
+
+
+
+    <div class="row">
+        <main class="col-md-8">
+            <a href="#" class="text-decoration-none text-muted mb-2 d-block">&lt; voltar</a>
+            <h2 class="mb-3">Gráfico de evolução</h2>
+
+            <div class="bg-light p-3 rounded mb-4">
+                <canvas id="graficoEvolucao" class="mb-2"></canvas>
+
+                <p class="mb-0">
+                    <strong>-15%</strong> de chance desde o último semestre<br>
+                    <strong>+2%</strong> de chance desde ingresso na universidade.<br>
+                    fulana está <strong>50%</strong> acima da média de probabilidade de evasão no seu curso.
+                </p>
+            </div>
+
+            <section>
+                <h3 class="mb-2">Quadro de variáveis</h3>
+                <div class="bg-light p-3 rounded">
+                    <div class="d-flex justify-content-between fw-bold mb-3">
+                        <span>Variável</span>
+                        <span>Impacto</span>
+                    </div>
+                    <div class="d-flex justify-content-between tabela-item">
+                        <span>Horário das aulas</span>
+                        <span>30%</span>
+                    </div>
+                    <div class="d-flex justify-content-between tabela-item">
+                        <span>Distância da faculdade</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="d-flex justify-content-between tabela-item">
+                        <span>Dificuldade do curso</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="d-flex justify-content-between tabela-item">
+                        <span>Escassez de bolsas e estágios</span>
+                        <span>10%</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="col-md-4 mt-4 mt-md-0">
+            <div class="bg-light p-3 rounded text-center">
+                <div class="bg-secondary mb-3" style="width: 100%; height: 150px;"></div>
+                <div class="text-start">
+                    <strong>Fulana de tal</strong> <span class="text-muted small">202310112</span><br>
+                    <div class="mt-2">Curso<br><span class="fw-normal">Educação Física - Bacharelado</span></div>
+                    <div class="mt-2">E-mail<br><span class="fw-normal">tald.fulana@acad.ufsm.br</span></div>
+                    <div class="mt-2">Telefone<br><span class="fw-normal">(55) 000 0000</span></div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</div>
+
+<!-- Script separado -->
+<script src="../JS/vizu-especifico/chart-config.js"></script>
 </body>
 </html>
