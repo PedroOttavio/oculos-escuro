@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84987b94-9474-405f-9337-56f9db700a79" name="Changes" comment="finalmente consegui fazer o icone" />
+    <list default="true" id="84987b94-9474-405f-9337-56f9db700a79" name="Changes" comment="finalmente consegui fazer o icone">
+      <change afterPath="$PROJECT_DIR$/JS/vizu-especifico/pop-up conta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/garota_generica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/usuario_teste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/vizu-especifico.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/vizu-especifico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/vizu-especifico.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/vizu-especifico.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +28,13 @@
     <excluded-from-favorite>
       <branch-storage>
         <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -78,6 +92,7 @@
     "JavaScript Debug.pagina-inicial.html.executor": "Run",
     "JavaScript Debug.vizu-especifico.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "teste",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -89,6 +104,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\loren\IdeaProjects\oculos-escuro\icons" />
       <recent name="C:\Users\loren\IdeaProjects\oculos-escuro\JS\vizu-especifico" />
     </key>
   </component>
@@ -111,6 +127,8 @@
       <workItem from="1749524991312" duration="869000" />
       <workItem from="1749525881138" duration="2080000" />
       <workItem from="1749574626242" duration="3140000" />
+      <workItem from="1749577808455" duration="1657000" />
+      <workItem from="1749596896928" duration="9211000" />
     </task>
     <task id="LOCAL-00001" summary="teste commit">
       <option name="closed" value="true" />
@@ -144,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749577686422</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finalmente consegui fazer o icone">
+      <option name="closed" value="true" />
+      <created>1749577868147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749577868147</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
