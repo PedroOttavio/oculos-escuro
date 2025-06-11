@@ -1,3 +1,24 @@
+body {
+    background-color: #d2d2d2;
+}
+
+h1{
+    margin-left: 4%; /* ajuste o valor conforme necessário */
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+
+.pagina-conteudo {
+    margin: 20px auto;     /* margem superior + centralização */
+    padding: 20px;         /* espaço interno */
+    max-width: 1600px;     /* limite de largura igual ao protótipo */
+    border-radius: 10px;
+    background-color: white;
+}
+
 .container-imagens-titulo {
     position: relative;
     display: inline-block;
@@ -26,6 +47,52 @@
     left: 17px;
 }
 
+.btn-voltar {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+
+}
+
+.usuario-menu-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+#usuarioBotao {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #1f1f1f;
+    border-radius: 50%;
+    background-image: url('../icons/usuario_teste.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+}
+
+#usuarioBotao:hover,
+#usuarioBotao.ativo {
+    transform: scale(1.4);
+    border-color: #c4ab82;
+    box-shadow: 0 0 10px #c4ab82;
+}
+
+.menu-usuario {
+    top: 70px; /* distância abaixo do botão */
+    right: 40px;
+    min-width: 120px;
+    z-index: 10;
+}
+
+.menu-usuario a:hover {
+    background-color: #f2f2f2;
+}
 
 
 /* Linha genérica para representar variáveis no gráfico */
@@ -33,11 +100,6 @@
     background-color: #dcdcdc !important;
 }
 
-/* Tamanho e arredondamento das bolinhas de perfil */
-.rounded-circle {
-    width: 30px;
-    height: 30px;
-}
 
 /* Ajustes para a imagem do gráfico */
 img.img-fluid {
@@ -81,3 +143,30 @@ aside .text-start div {
 .tabela-item:last-child {
     border-bottom: none;
 }
+
+.info-lateral {
+    width: 300px;
+    margin-left: 7%;
+    position: relative;
+    top: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .info-lateral {
+        width: 100%;        /* ocupa largura total no mobile */
+    }
+}
+
+.imagem-perfil {
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    background-image: url('../icons/garota_generica.jpg');
+    background-size: cover;
+    background-position: center top; /* <- Isso sobe a imagem */
+    background-repeat: no-repeat;
+}
+
+
+
