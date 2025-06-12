@@ -17,6 +17,7 @@
     left: 0;
 }
 
+
 .fonte-menor{
     font-size: 0.95rem;
     
@@ -24,6 +25,10 @@
 .fonte-menor-2{
     font-size: 0.90rem;
     
+}
+
+.tudo{
+    filter: blur(1.1rem);
 }
 
 /* parte do texto: */
@@ -68,10 +73,25 @@
 
 
 
+.centralizado {
+    /* dimensões */
+    width: 300px;
+    height: 200px;
+    background: #f0f0f0;
 
+    /* tira do fluxo e fixa na viewport */
+    position: fixed;
+    top: 50%;
+    left: 50%;
 
-/* .imagem-grandona{
-    width: 100%;
-    height: 100%;
-    position: relative; 
-} */
+    /* centraliza o próprio elemento */
+    transform: translate(-50%, -50%);
+
+    /* garante que fique acima de tudo */
+    z-index: 9999;
+
+    /* só para exemplo, alinhamento interno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
