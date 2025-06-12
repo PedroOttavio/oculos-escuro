@@ -5,7 +5,7 @@ new Chart(ctx, {
     data: {
         labels: ['2023/1', '2023/2', '2024/1', '2024/2', '2025/1'],
         datasets: [{
-            data: [18, 25, 22, 35, 20],
+            data: [60, 20, 20, 10, 5],
             borderColor: '#000000',         // Linha preta
             backgroundColor: '#000000',     // Pontos pretos
             fill: false,                    // Sem preenchimento
