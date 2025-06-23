@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84987b94-9474-405f-9337-56f9db700a79" name="Changes" comment="finalmente consegui fazer o icone">
-      <change afterPath="$PROJECT_DIR$/JS/vizu-especifico/pop-up conta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/garota_generica.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/usuario_teste.png" afterDir="false" />
+    <list default="true" id="2c961435-dd48-478b-b5a1-26269ac25ddb" name="Changes" comment="teste commit branch">
+      <change afterPath="$PROJECT_DIR$/icons/garota_ia.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/vizu-especifico/chart-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/vizu-especifico/chart-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/vizu-especifico/pop-up conta.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/vizu-especifico/pop-up conta.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/vizu-especifico.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/vizu-especifico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/garota_generica.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style/vizu-especifico.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/vizu-especifico.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -28,13 +31,6 @@
     <excluded-from-favorite>
       <branch-storage>
         <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -48,6 +44,13 @@
     <favorite-branches>
       <branch-storage>
         <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="teste" />
+              </list>
+            </value>
+          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -58,10 +61,9 @@
         </map>
       </branch-storage>
     </favorite-branches>
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="teste" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,13 +77,13 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/PedroOttavio/oculos-escuro.git&quot;,
-    &quot;accountId&quot;: &quot;36c86de6-be8f-4174-9668-790241984452&quot;
+    &quot;accountId&quot;: &quot;f494747a-834a-44d2-bf93-c948731b6dee&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2yIbN2CXRv9vkbhH3DWeHoP4YCO" />
+  <component name="ProjectId" id="2yHWXEFmyaOd1BDqw0DZc19UGa8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -89,11 +91,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.pagina-inicial.html.executor": "Run",
+    "JavaScript Debug.pagina-login.html.executor": "Run",
     "JavaScript Debug.vizu-especifico.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "teste",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,94 +110,54 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\loren\IdeaProjects\oculos-escuro\icons" />
-      <recent name="C:\Users\loren\IdeaProjects\oculos-escuro\JS\vizu-especifico" />
+      <recent name="C:\Users\aluno\IdeaProjects\oculos-escuro\icons" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="84987b94-9474-405f-9337-56f9db700a79" name="Changes" comment="" />
-      <created>1749524990250</created>
+      <changelist id="2c961435-dd48-478b-b5a1-26269ac25ddb" name="Changes" comment="" />
+      <created>1749492016779</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1749524990250</updated>
-      <workItem from="1749524991312" duration="869000" />
-      <workItem from="1749525881138" duration="2080000" />
-      <workItem from="1749574626242" duration="3140000" />
-      <workItem from="1749577808455" duration="1657000" />
-      <workItem from="1749596896928" duration="9211000" />
+      <updated>1749492016779</updated>
+      <workItem from="1749492018027" duration="2316000" />
+      <workItem from="1749746175981" duration="157000" />
+      <workItem from="1749746335080" duration="3764000" />
     </task>
-    <task id="LOCAL-00001" summary="teste commit">
+    <task id="LOCAL-00001" summary="separação do css">
       <option name="closed" value="true" />
-      <created>1749525555854</created>
+      <created>1749493811254</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1749525555854</updated>
+      <updated>1749493811254</updated>
     </task>
-    <task id="LOCAL-00002" summary="teste commit branch teste">
+    <task id="LOCAL-00002" summary="teste commit branch">
       <option name="closed" value="true" />
-      <created>1749525672118</created>
+      <created>1749494303823</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1749525672118</updated>
+      <updated>1749494303823</updated>
     </task>
-    <task id="LOCAL-00003" summary="comecando a implementar a pagina de vizu especifica">
-      <option name="closed" value="true" />
-      <created>1749527784745</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1749527784745</updated>
-    </task>
-    <task id="LOCAL-00004" summary="finalmente consegui fazer o icone">
-      <option name="closed" value="true" />
-      <created>1749577686422</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1749577686422</updated>
-    </task>
-    <task id="LOCAL-00005" summary="finalmente consegui fazer o icone">
-      <option name="closed" value="true" />
-      <created>1749577868147</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1749577868147</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="teste commit" />
-    <MESSAGE value="teste commit branch teste" />
-    <MESSAGE value="comecando a implementar a pagina de vizu especifica" />
-    <MESSAGE value="finalmente consegui fazer o icone" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalmente consegui fazer o icone" />
+    <MESSAGE value="separação do css" />
+    <MESSAGE value="teste commit branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste commit branch" />
   </component>
 </project>

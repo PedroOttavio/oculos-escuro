@@ -2,9 +2,6 @@ body {
     background-color: #d2d2d2;
 }
 
-h1{
-    margin-left: 4%; /* ajuste o valor conforme necessário */
-}
 
 h1, h2, h3 {
     font-weight: bold;
@@ -19,6 +16,11 @@ h1, h2, h3 {
     background-color: white;
 }
 
+.margem-conteudo{
+    margin-left: 100px;
+}
+
+
 .container-imagens-titulo {
     position: relative;
     display: inline-block;
@@ -32,18 +34,17 @@ h1, h2, h3 {
     object-fit: cover;
     position: absolute;
     top: 0;
-    left: 0;
 }
 
 .imagem-sobreposta-titulo-topo {
     position: absolute;
     top: -10px;
-    left: 0;
+    left:0;
 }
 
 .imagem-sobreposta-titulo-bot {
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 17px;
 }
 
@@ -51,8 +52,30 @@ h1, h2, h3 {
     margin-top: 24px;
     margin-bottom: 24px;
     font-size: 1.5rem;
-
 }
+
+#graficoEvolucao{
+    margin-left: 60px;
+}
+
+.usuario-texto {
+    position: absolute;
+    left: -140px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000000;
+    transition: left 0.2s ease-in-out;
+}
+
+/* quando hover NO container ou container .ativo */
+.usuario-menu-container:hover .usuario-texto,
+.usuario-menu-container.ativo .usuario-texto {
+    left: -160px;
+}
+
+
+
 
 .usuario-menu-container {
     position: relative;
@@ -162,7 +185,7 @@ aside .text-start div {
     width: 100%;
     height: 300px;
     border-radius: 4px;
-    background-image: url('../icons/garota_generica.jpg');
+    background-image: url('../icons/garota_ia.png');
     background-size: cover;
     background-position: center top; /* <- Isso sobe a imagem */
     background-repeat: no-repeat;
