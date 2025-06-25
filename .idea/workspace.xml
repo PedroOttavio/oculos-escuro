@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c961435-dd48-478b-b5a1-26269ac25ddb" name="Changes" comment="teste commit branch">
-      <change afterPath="$PROJECT_DIR$/icons/garota_ia.png" afterDir="false" />
+    <list default="true" id="2c961435-dd48-478b-b5a1-26269ac25ddb" name="Changes" comment="pagina vizu-especifico completa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/vizu-especifico/chart-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/vizu-especifico/chart-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/vizu-especifico/pop-up conta.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/vizu-especifico/pop-up conta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/vizu-especifico.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/vizu-especifico.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/garota_generica.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/vizu-especifico/vizu-geral.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/vizu-especifico/vizu-geral.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/vizu-especifico.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/vizu-especifico.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/vizu-geral.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/vizu-geral.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +25,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
     <favorite-branches>
       <branch-storage>
         <map>
@@ -48,13 +32,6 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="teste" />
-              </list>
-            </value>
-          </entry>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/teste" />
               </list>
             </value>
           </entry>
@@ -95,6 +72,7 @@
     "JavaScript Debug.pagina-inicial.html.executor": "Run",
     "JavaScript Debug.pagina-login.html.executor": "Run",
     "JavaScript Debug.vizu-especifico.html.executor": "Run",
+    "JavaScript Debug.vizu-geral.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -131,7 +109,10 @@
       <updated>1749492016779</updated>
       <workItem from="1749492018027" duration="2316000" />
       <workItem from="1749746175981" duration="157000" />
-      <workItem from="1749746335080" duration="3764000" />
+      <workItem from="1749746335080" duration="5519000" />
+      <workItem from="1749832151075" duration="7000" />
+      <workItem from="1750703465805" duration="231000" />
+      <workItem from="1750868695977" duration="3170000" />
     </task>
     <task id="LOCAL-00001" summary="separação do css">
       <option name="closed" value="true" />
@@ -149,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749494303823</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pagina vizu-especifico completa">
+      <option name="closed" value="true" />
+      <created>1749750828672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749750828672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="separação do css" />
     <MESSAGE value="teste commit branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste commit branch" />
+    <MESSAGE value="pagina vizu-especifico completa" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagina vizu-especifico completa" />
   </component>
 </project>
