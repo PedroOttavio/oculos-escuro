@@ -69,7 +69,7 @@
                     </h5>
                   </div>
 
-                  <button type="button" class="btn btn-dark ms-0 ms-md-3 mt-2 mt-md-0 " data-bs-toggle="modal"
+                  <button type="button" class="btn btn-dark ms-0 ms-md-3 mt-2 mt-md-0 estilo-negrito " data-bs-toggle="modal"
                     data-bs-target="#loginModal">
                     Login
                   </button>
@@ -145,7 +145,8 @@
             <p class="fonte-ainda-menor texto-preto m-0">Para começar, digite sua matricula e senha.</p>
           </div>
 
-          <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"
+            aria-label="Fechar"></button>
         </div>
         <div class="modal-body">
           <form>
@@ -158,7 +159,8 @@
               <input type="password" class="form-control" placeholder="">
             </div>
             <div class="d-flex justify-content-between align-items-start">
-              <button type="submit" class="btn btn-dark  w-45 estilo-negrito" > <a href="../html/vizu-geral.html" class="text-white efeito-link">Entrar</a></button>
+              <button type="submit" class="btn btn-dark  w-45 estilo-negrito"> <a href="../html/vizu-geral.html"
+                  class="text-white efeito-link">Entrar</a></button>
               <div class="d-flex flex-column text-end">
                 <a href="#" class="fonte-menor-2 texto-preto lh-1 efeito-link">Esqueci minha senha</a>
                 <p class="fonte-menor-2 lh-1 mb-0">Não possui conta?</p>
@@ -167,7 +169,7 @@
                   class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Cadastre-se</a>
               </div>
             </div>
-            
+
           </form>
         </div>
       </div>
@@ -177,87 +179,87 @@
 
 
 
-    <!-- Cadastrar SIIIIIII -->
-    <div class="modal fade" id="cadastrarModal" tabindex="-1" aria-labelledby="cadastrarModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header justify-content-center position-relative mt-0">
-            <div class="text-center">
-              <h2 class="m-0 mt-2 ">
-                <!-- parte do titulo com a imagem sobreposta -->
-                <span class="d-inline-flex align-items-center modal-title estilo-negrito texto-preto text-center"
-                  id="cadastrarModalLabel">
-                  EDUCA
+  <!-- Cadastrar SIIIIIII -->
+  <div class="modal fade" id="cadastrarModal" tabindex="-1" aria-labelledby="cadastrarModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header justify-content-center position-relative mt-0">
+          <div class="text-center">
+            <h2 class="m-0 mt-2 ">
+              <!-- parte do titulo com a imagem sobreposta -->
+              <span class="d-inline-flex align-items-center modal-title estilo-negrito texto-preto text-center"
+                id="cadastrarModalLabel">
+                EDUCA
 
-                  <span class="container-imagens-titulo">
-                    <img src="../icons/image.png" class="img-fluid imagem-sobreposta-titulo-topo" alt="icone" width="35"
-                      height="40" />
+                <span class="container-imagens-titulo">
+                  <img src="../icons/image.png" class="img-fluid imagem-sobreposta-titulo-topo" alt="icone" width="35"
+                    height="40" />
 
-                    <img src="../icons/icon_titulo.png" class="img-fluid imagem-sobreposta-titulo-bot" alt="icone"
-                      width="24" height="24" />
-                  </span>
+                  <img src="../icons/icon_titulo.png" class="img-fluid imagem-sobreposta-titulo-bot" alt="icone"
+                    width="24" height="24" />
                 </span>
-              </h2>
-              <p class="fonte-ainda-menor texto-preto m-0">Crie sua conta.</p>
+              </span>
+            </h2>
+            <p class="fonte-ainda-menor texto-preto m-0">Crie sua conta.</p>
+          </div>
+
+          <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"
+            aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label texto-preto estilo-negrito">Nome</label>
+              <input type="text" class="form-control" placeholder="">
             </div>
+            <div class="mb-3">
+              <label for="E-mail" class="form-label texto-preto estilo-negrito">E-mail</label>
+              <input type="text" class="form-control" placeholder="">
+            </div>
+            <div class="mb-3">
+              <label for="matricula" class="form-label texto-preto estilo-negrito">Matricula</label>
+              <input type="text" class="form-control" id="matricula" placeholder="">
 
-            <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"
-              aria-label="Fechar"></button>
-          </div>
-          <div class="modal-body">
-            <form>
               <div class="mb-3">
-                <label for="nome" class="form-label texto-preto estilo-negrito">Nome</label>
-                <input type="text" class="form-control" placeholder="">
+                <label for="senha" class="form-label texto-preto estilo-negrito">Senha</label>
+                <input type="password" class="form-control" placeholder="">
               </div>
-              <div class="mb-3">
-                <label for="E-mail" class="form-label texto-preto estilo-negrito">E-mail</label>
-                <input type="text" class="form-control" placeholder="">
+              <div class="d-flex justify-content-between align-items-start">
+                <button type="submit" class="btn btn-dark w-45 estilo-negrito"><a href="../html/vizu-geral.html"
+                    class="efeito-link text-white">Cadastrar</a></button>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
+                  class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Já possui conta? Faça login</a>
               </div>
-              <div class="mb-3">
-                <label for="matricula" class="form-label texto-preto estilo-negrito">Matricula</label>
-                <input type="text" class="form-control" id="matricula" placeholder="">
-
-                <div class="mb-3">
-                  <label for="senha" class="form-label texto-preto estilo-negrito">Senha</label>
-                  <input type="password" class="form-control" placeholder="">
-                </div>
-                <div class="d-flex justify-content-between align-items-start">
-                  <button type="submit" class="btn btn-dark w-45 estilo-negrito" ><a href="../html/vizu-geral.html" class="efeito-link text-white">Cadastrar</a></button>
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
-                    class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Já possui conta? Faça login</a>
-                </div>
-
-            </form>
-          </div>
+          </form>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- FIM DO MODAL DE CADASTRO -->
-
-
-    <script>
-      const modal = document.getElementById('loginModal');
-      const mainContent = document.getElementById('main-content');
-      const cadastrarModal = document.getElementById('cadastrarModal');
-      const modalCadastrar = document.getElementById('cadastrarModal');
+  <!-- FIM DO MODAL DE CADASTRO -->
 
 
-      modal.addEventListener('show.bs.modal', function () {
-        mainContent.classList.add('blur-transicao-login');
-      });
+  <script>
+    const modal = document.getElementById('loginModal');
+    const mainContent = document.getElementById('main-content');
+    const cadastrarModal = document.getElementById('cadastrarModal');
+    const modalCadastrar = document.getElementById('cadastrarModal');
 
-      modal.addEventListener('hidden.bs.modal', function () {
-        mainContent.classList.remove('blur-transicao-login');
-      });
-      modalCadastrar.addEventListener('show.bs.modal', function () {
-        mainContent.classList.add('blur-transicao-login');
-      });
-      cadastrarModal.addEventListener('hidden.bs.modal', function () {
-        mainContent.classList.remove('blur-transicao-login');
-      });
-    </script>
+
+    modal.addEventListener('show.bs.modal', function () {
+      mainContent.classList.add('blur-transicao-login');
+    });
+
+    modal.addEventListener('hidden.bs.modal', function () {
+      mainContent.classList.remove('blur-transicao-login');
+    });
+    modalCadastrar.addEventListener('show.bs.modal', function () {
+      mainContent.classList.add('blur-transicao-login');
+    });
+    cadastrarModal.addEventListener('hidden.bs.modal', function () {
+      mainContent.classList.remove('blur-transicao-login');
+    });
+  </script>
 </body>
 
 </html>
