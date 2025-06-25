@@ -133,20 +133,20 @@
         <div class="modal-body">
           <form>
             <div class="mb-3">
-              <label for="matricula class="form-label">Matricula</label>
+              <label for="matricula" class="form-label texto-preto estilo-negrito">Matricula</label>
               <input type="password" class="form-control" id="password" placeholder="Insira a sua matricula">
             </div>
             <div class="mb-3">
-              <label for="senha" class="form-label">Senha</label>
+              <label for="senha" class="form-label texto-preto estilo-negrito">Senha</label>
               <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
             </div>
             <div class="d-flex justify-content-between align-items-start">
-              <button type="submit" class="btn btn-primary w-45 estilo-negrito">Entrar</button>
+              <button type="submit" class="btn btn-dark  w-45 estilo-negrito">Entrar</button>
               <div class="d-flex flex-column text-end">
                 <a href="#" class="fonte-menor-2 texto-preto lh-1 efeito-link">Esqueci minha senha</a>
                 <p class="fonte-menor-2 lh-1 mb-0">Não possui conta?</p>
                 <!-- só copia e cola do botão de login. "Tranquilidade na quebrada, dinheiro no bolso, sem miséria, trim trim" -->
-                <a href="#" data-bs-toggle="modal" data-bs-target="#cadastrarModal"
+                <a href="#" data-bs-toggle="modalCadastrar" data-bs-target="#cadastrarModal"
                   class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Cadastre-se</a>
               </div>
             </div>
@@ -171,21 +171,25 @@
         <div class="modal-body">
           <form>
             <div class="mb-3">
-              <label for="matricula class="form-label">Matricula</label>
-              <input type="password" class="form-control" id="password" placeholder="Insira a sua matricula">
+              <label for="nome" class="form-label texto-preto estilo-negrito">Nome</label>
+              <input type="text" class="form-control" id="text" placeholder="">
             </div>
             <div class="mb-3">
-              <label for="senha" class="form-label">Senha</label>
+              <label for="E-mail" class="form-label texto-preto estilo-negrito">E-mail</label>
+              <input type="text" class="form-control" id="text" placeholder="">
+            </div>
+            <div class="mb-3">
+              <label for="matricula" class="form-label texto-preto estilo-negrito">Matricula</label>
+              <input type="text" class="form-control" id="matricula" placeholder="">
+
+            <div class="mb-3">
+              <label for="senha" class="form-label texto-preto estilo-negrito">Senha</label>
               <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
             </div>
             <div class="d-flex justify-content-between align-items-start">
-              <button type="submit" class="btn btn-primary w-45 estilo-negrito">Entrar</button>
-              <div class="d-flex flex-column text-end">
-                <a href="#" class="fonte-menor-2 texto-preto lh-1 efeito-link">Esqueci minha senha</a>
-                <p class="fonte-menor-2 lh-1 mb-0">Não possui conta?</p>
-
-                
-              </div>
+              <button type="submit" class="btn btn-dark w-45 estilo-negrito">Cadastrar</button>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
+                  class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Já possui conta? Faça login</a>
             </div>
             
           </form>
@@ -199,6 +203,7 @@
     const modal = document.getElementById('loginModal');
     const mainContent = document.getElementById('main-content');
     const cadastrarModal = document.getElementById('cadastrarModal');
+    const modalCadastrar = document.getElementById('cadastrarModal');
 
 
     modal.addEventListener('show.bs.modal', function () {
@@ -208,10 +213,10 @@
     modal.addEventListener('hidden.bs.modal', function () {
       mainContent.classList.remove('blur-transicao-login');
     });
-    cadastrarModal.addEventListener('show.bs.modal', function () {
+    modalCadastrar.addEventListener('show.bs.modal', function () {
       mainContent.classList.add('blur-transicao-login');
     });
-    cadastrarModal.addEventListener('hidden.bs.modal', function () {
+    modalCadastrar.addEventListener('hidden.bs.modal', function () {
       mainContent.classList.remove('blur-transicao-login');
     });
   </script>
