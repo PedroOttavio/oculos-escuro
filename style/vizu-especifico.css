@@ -60,7 +60,7 @@ h1, h2, h3 {
 
 .usuario-texto {
     position: absolute;
-    left: -140px;
+    left: -120px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 18px;
