@@ -31,7 +31,7 @@
     filter: blur(1.1rem);
 }
 
-.blur-background{
+.blur-transicao-login{
     filter: blur(1.1rem);
     transition: filter 0.3s;
 }
