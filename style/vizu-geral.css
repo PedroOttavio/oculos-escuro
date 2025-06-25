@@ -243,6 +243,18 @@
     background-color: #f0f0f0; /* Cor ao passar o mouse sobre a linha */
 }
 
+.aluno-link {
+    color: inherit; /* Usa a cor padrão do texto ao redor */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: 500; /* Um pouco mais de destaque, opcional */
+    transition: color 0.2s;
+}
+
+.aluno-link:hover {
+    color: #c4ab82; /* Azul padrão do Bootstrap no hover */
+    text-decoration: underline; /* Sutil no hover */
+}
+
 .prob-evasao-alta {
     color: #dc3545; /* Vermelho para alta probabilidade */
     font-weight: bold;

@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const probClass = getProbabilidadeClass(aluno.probabilidadeEvasao);
 
             tr.innerHTML = `
-                <td>${aluno.nome}</td>
+                <td><a href="../html/vizu-especifico.html" class="aluno-link">${aluno.nome}</a></td>
                 <td>${aluno.matricula}</td>
                 <td>${getCursoNome(aluno.cursoId)}</td>
                 <td class="${probClass}">${probEvasaoFormatada}</td>
