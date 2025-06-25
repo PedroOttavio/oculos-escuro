@@ -18,7 +18,7 @@
 </head>
 
 <body class="cinza">
-  <div class="container-fluid">
+  <div class="container-fluid" id="main-content">
     <div class="row">
       <div class="col-12 col-md-1 p-0 rounded">
         <!-- esquerda -->
@@ -146,9 +146,18 @@
     </div>
   </div>
 
-</body>
+  <script>
+    const modal = document.getElementById('loginModal');
+    const mainContent = document.getElementById('main-content');
 
-</html>
+    modal.addEventListener('show.bs.modal', function () {
+      mainContent.classList.add('blur-background');
+    });
+
+    modal.addEventListener('hidden.bs.modal', function () {
+      mainContent.classList.remove('blur-background');
+    });
+  </script>
 </body>
 
 </html>
