@@ -126,25 +126,69 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="loginModalLabel">Matricula</h5>
+          <h5 class="modal-title" id="loginModalLabel">EDUCA</h5>
+          
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
         </div>
         <div class="modal-body">
           <form>
             <div class="mb-3">
-              <label for="password class="form-label">Senha</label>
-              <input type="password" class="form-control" id="password" placeholder="Digite a sua senha">
+              <label for="matricula class="form-label">Matricula</label>
+              <input type="password" class="form-control" id="password" placeholder="Insira a sua matricula">
             </div>
             <div class="mb-3">
               <label for="senha" class="form-label">Senha</label>
               <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
             </div>
-            <button type="submit" class="btn btn-primary w-100">Entrar</button>
+            <div class="d-flex justify-content-between align-items-start">
+              <button type="submit" class="btn btn-primary w-45 estilo-negrito">Entrar</button>
+              <div class="d-flex flex-column text-end">
+                <a href="#" class="fonte-menor-2 texto-preto lh-1 efeito-link">Esqueci minha senha</a>
+                <p class="fonte-menor-2 lh-1 mb-0">Não possui conta?</p>
+                <a href="#" class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Cadastre-se</a>
+              </div>
+            </div>
+            
           </form>
         </div>
       </div>
     </div>
   </div>
+
+ <!-- Cadastrar SIIIIIII -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">EDUCA</h5>
+          
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="matricula class="form-label">Matricula</label>
+              <input type="password" class="form-control" id="password" placeholder="Insira a sua matricula">
+            </div>
+            <div class="mb-3">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+            </div>
+            <div class="d-flex justify-content-between align-items-start">
+              <button type="submit" class="btn btn-primary w-45 estilo-negrito">Entrar</button>
+              <div class="d-flex flex-column text-end">
+                <a href="#" class="fonte-menor-2 texto-preto lh-1 efeito-link">Esqueci minha senha</a>
+                <p class="fonte-menor-2 lh-1 mb-0">Não possui conta?</p>
+                <a href="#" class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Cadastre-se</a>
+              </div>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <script>
     const modal = document.getElementById('loginModal');

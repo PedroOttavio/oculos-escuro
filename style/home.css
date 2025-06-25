@@ -50,6 +50,12 @@
     font-size: 1.1rem;
 }
 
+.efeito-link{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
 .estilo-negrito{
     font-weight: bolder;
 }
