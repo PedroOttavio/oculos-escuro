@@ -145,7 +145,9 @@
               <div class="d-flex flex-column text-end">
                 <a href="#" class="fonte-menor-2 texto-preto lh-1 efeito-link">Esqueci minha senha</a>
                 <p class="fonte-menor-2 lh-1 mb-0">Não possui conta?</p>
-                <a href="#" class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Cadastre-se</a>
+                <!-- só copia e cola do botão de login. "Tranquilidade na quebrada, dinheiro no bolso, sem miséria, trim trim" -->
+                <a href="#" data-bs-toggle="modal" data-bs-target="#cadastrarModal"
+                  class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Cadastre-se</a>
               </div>
             </div>
             
@@ -155,13 +157,15 @@
     </div>
   </div>
 
+  
+
  <!-- Cadastrar SIIIIIII -->
-  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal fade" id="cadastrarModal" tabindex="-1" aria-labelledby="cadastrarModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="loginModalLabel">EDUCA</h5>
-          
+          <h5 class="modal-title" id="cadastrarModalLabel">EDUCA</h5>
+
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
         </div>
         <div class="modal-body">
@@ -179,7 +183,8 @@
               <div class="d-flex flex-column text-end">
                 <a href="#" class="fonte-menor-2 texto-preto lh-1 efeito-link">Esqueci minha senha</a>
                 <p class="fonte-menor-2 lh-1 mb-0">Não possui conta?</p>
-                <a href="#" class="texto-preto fonte-menor-2 fw-bold lh-1 efeito-link">Cadastre-se</a>
+
+                
               </div>
             </div>
             
@@ -193,12 +198,20 @@
   <script>
     const modal = document.getElementById('loginModal');
     const mainContent = document.getElementById('main-content');
+    const cadastrarModal = document.getElementById('cadastrarModal');
+
 
     modal.addEventListener('show.bs.modal', function () {
       mainContent.classList.add('blur-transicao-login');
     });
 
     modal.addEventListener('hidden.bs.modal', function () {
+      mainContent.classList.remove('blur-transicao-login');
+    });
+    cadastrarModal.addEventListener('show.bs.modal', function () {
+      mainContent.classList.add('blur-transicao-login');
+    });
+    cadastrarModal.addEventListener('hidden.bs.modal', function () {
       mainContent.classList.remove('blur-transicao-login');
     });
   </script>
