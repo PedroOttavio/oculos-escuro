@@ -170,6 +170,7 @@
               </div>
             </div>
 
+            
           </form>
         </div>
       </div>
@@ -178,6 +179,7 @@
   <!-- FIM DO MODAL DE LOGIN . SIIIIIII -->
 
 
+  
 
   <!-- Cadastrar SIIIIIII -->
   <div class="modal fade" id="cadastrarModal" tabindex="-1" aria-labelledby="cadastrarModalLabel" aria-hidden="true">
@@ -238,14 +240,12 @@
 
   <!-- FIM DO MODAL DE CADASTRO -->
 
-
   <script>
     const modal = document.getElementById('loginModal');
     const mainContent = document.getElementById('main-content');
     const cadastrarModal = document.getElementById('cadastrarModal');
-    const modalCadastrar = document.getElementById('cadastrarModal');
 
-
+    // Modal de Login
     modal.addEventListener('show.bs.modal', function () {
       mainContent.classList.add('blur-transicao-login');
     });
@@ -253,11 +253,14 @@
     modal.addEventListener('hidden.bs.modal', function () {
       mainContent.classList.remove('blur-transicao-login');
     });
-    modalCadastrar.addEventListener('show.bs.modal', function () {
-      mainContent.classList.add('blur-transicao-login');
+
+    // Modal de Cadastro
+    cadastrarModal.addEventListener('show.bs.modal', function () {
+      mainContent.classList.add('blur-transicao-cadastro');
     });
+
     cadastrarModal.addEventListener('hidden.bs.modal', function () {
-      mainContent.classList.remove('blur-transicao-login');
+      mainContent.classList.remove('blur-transicao-cadastro');
     });
   </script>
 </body>
