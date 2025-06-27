@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-layout-container {
+    
+    display: flex;
+    padding: 10px;
+    background-color: #d2d2d2; 
+    
+}
+
+.sidebar {
+    
+    width: 300px; /* Largura fixa para a sidebar */
+    flex-shrink: 0; 
+    background-color: #ffffff; 
+    padding: 20px;
+    box-shadow: 8px 0 5px rgba(0, 0, 0, 0.1);
+    display : flex;
+    flex-direction: column; /* Organiza os itens da sidebar verticalmente */
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    
+}
+
+.main-content-area {
+    flex-grow: 1; 
+    padding: 20px; 
+    overflow-y: auto;
+    margin-left: -40px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.sidebar h5 {
+    color: #000000; 
+    font-size: 1.7rem; 
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+
+.sidebar label {
+    
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block; 
+}
+
+.sidebar .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-bottom: 15px; /* Espaçamento entre os campos de pesquisa */
+}
+
+.sidebar .form-control::placeholder {
+    color: #999;
+}
+
+.sidebar .form-control:focus {
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.list-group {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    max-height: 200px; 
+    overflow-y: auto; /* Adiciona scroll se a lista for muito longa */
+    margin-bottom: 20px; 
+    border: 1px solid #ddd;
+    
+}
+
+.list-group-item {
+    cursor: pointer;
+    border: none; 
+    padding: 10px 15px;
+    font-size: 0.95rem;
+}
+
+.list-group-item:hover {
+    background-color: #f5f5f5;
+    color: #007bff; 
+}
+
+.list-group-item.active {
+    background-color: #1e1e1f; /* Cor de seleção */
+    color: white;
+    font-weight: bold;
+    border-color: #007bff;
+}
+
+.margem-conteudo{
+    margin-left: 40px;
+
+}
+.margem-estudante{
+    margin-left: -12px;
+
+}
+.margem-ordenar{
+    margin-left: 650px;
+}
+
+.titulo-educa {
+    position: relative; 
+    color: #000000;
+    font-size: 2.5rem; 
+    font-weight: bold;
+    letter-spacing: -1px;
+    
+}
+.container-imagens-titulo {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+}
+
+.imagem-sobreposta {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.imagem-sobreposta-titulo-topo {
+    position: absolute;
+    top: -10px;
+    left:0;
+}
+
+.imagem-sobreposta-titulo-bot {
+    position: absolute;
+    top: 0;
+    left: 17px;
+}
+.usuario-texto {
+    position: absolute;
+    left: -140px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000000;
+    transition: left 0.2s ease-in-out;
+}
+
+.usuario-menu-container:hover .usuario-texto,
+.usuario-menu-container.ativo .usuario-texto {
+    left: -160px;
+}
+
+.usuario-menu-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+#usuarioBotao {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #1f1f1f;
+    border-radius: 50%;
+    background-image: url(../icons/usuario_teste.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+}
+
+#usuarioBotao:hover,
+#usuarioBotao.ativo {
+    transform: scale(1.4);
+    border-color: #c4ab82;
+    box-shadow: 0 0 10px #c4ab82;
+}
+
+.menu-usuario {
+    top: 70px; 
+    right: 40px;
+    min-width: 120px;
+    z-index: 10;
+    display: none; 
+    position: absolute; 
+}
+.menu-usuario.show {
+    display: block !important; 
+}
+#usuarioBotao.ativo {
+    background-color: #f0f0f0;
+    box-shadow: 1px rgba(0, 0, 0, 0.849);
+}
+
+.menu-usuario a:hover {
+    background-color: #f2f2f2;
+}
+
+.alunos-section h2 {
+    color: #000000;
+    font-size: 2rem; /* Tamanho do título "Estudantes" */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.alunos-section .table-responsive {
+    margin-bottom: 30px; /* Espaçamento abaixo da tabela */
+}
+
+.alunos-section .table {
+    border-collapse: separate; 
+    border-spacing: 0;
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+.alunos-section .table thead th {
+    background-color: #f8f9fa; 
+    color: #000000; 
+    font-weight: 700;
+    padding: 12px 15px;
+    border-bottom: 2px solid #dee2e6;
+    text-align: left;
+}
+
+.alunos-section .table tbody td {
+    padding: 12px 15px;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+    color: #343a40;
+}
+
+.alunos-section .table-hover tbody tr:hover {
+    background-color: #f0f0f0; /* Cor ao passar o mouse sobre a linha */
+}
+
+.aluno-link {
+    color: inherit; /* Usa a cor padrão do texto ao redor */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: 500; /* Um pouco mais de destaque, opcional */
+    transition: color 0.2s;
+}
+
+.aluno-link:hover {
+    color: #c4ab82; /* Azul padrão do Bootstrap no hover */
+    text-decoration: underline; /* Sutil no hover */
+}
+
+.prob-evasao-alta {
+    color: #dc3545; /* Vermelho para alta probabilidade */
+    font-weight: bold;
+}
+
+.prob-evasao-media {
+    color: #ffc107; /* Amarelo para média probabilidade */
+    font-weight: bold;
+}
+
+.prob-evasao-baixa {
+    color: #28a745; /* Verde para baixa probabilidade */
+    font-weight: bold;
+}
+
+.chart-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.chart-card h4 {
+    margin-bottom: 10px; 
+
+.chart-card canvas {
+    max-width: 100%;
+    flex-grow: 1; 
+    margin: auto;
+}
+
+@media (max-width: 992px) {
+    .main-layout-container {
+        flex-direction: column; /* Empilha sidebar e conteúdo em telas menores */
+    }
+
+    .sidebar {
+        width: 100%;
+        max-width: none; 
+        height: auto;
+        padding-bottom: 0; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-content-area {
+        padding: 15px;
+    }
+
+    .margem-conteudo {
+        margin-left: 0;
+    }
+
+    .sidebar .form-control {
+        margin-bottom: 10px;
+    }
+
+    .sidebar .list-group {
+        margin-bottom: 15px;
+    }
+
+    .chart-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo-educa {
+        font-size: 2rem;
+    }
+
+    .alunos-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .chart-card h4 {
+        font-size: 1.25rem;
+    }
+}
+
+}

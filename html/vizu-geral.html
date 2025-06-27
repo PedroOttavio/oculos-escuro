@@ -1,10 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão Geral de Alunos - EDUCA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/vizu-especifico.css">
+    <link rel="stylesheet" href="../style/vizu-geral.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="../JS/vizu-especifico/vizu-geral.js"></script>
+
 </head>
+
 <body>
+    <div class="main-layout-container">
+        <div class="pagina-conteudo bg-white rounded shadow-sm">
+            <aside class="sidebar d-flex flex-column border-end  shadow-sm">
+                <h5 class="text mb-4">Selecione um <br>centro e um curso</h5>
+
+                <label for="searchCentro" class="form-label">Centro:</label>
+                <input type="text" class="form-control mb-3" id="searchCentro" placeholder="Selecione um Centro">
+                <div id="centroOptions" class="list-group mb-4">
+                </div>
+
+                <label for="searchCurso" class="form-label">Curso:</label>
+                <input type="text" class="form-control mb-3" id="searchCurso" placeholder="Selecione um Curso">
+                <div id="cursoOptions" class="list-group">
+                </div>
+            </aside>
+        </div>
+
+        <main class="main-content-area">
+
+            <div class="bg-white rounded shadow-sm">
+                <div class="margem-conteudo">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <h1 class="mt-4 mb-0">
+                            <span class="d-inline-flex align-items-center titulo-educa">
+                                EDUCA
+                                <span class="container-imagens-titulo">
+                                    <img src="../icons/image.png" class="img-fluid imagem-sobreposta-titulo-topo"
+                                        alt="icone" width="35" height="40" />
+                                    <img src="../icons/icon_titulo.png" class="img-fluid imagem-sobreposta-titulo-bot"
+                                        alt="icone" width="24" height="24" />
+                                </span>
+                            </span>
+                        </h1>
+
+                        <div class="usuario-menu-container position-relative">
+                            <button id="usuarioBotao" class="rounded-circle shadow-sm"></button>
+                            <div class="menu-usuario dropdown-menu dropdown-menu-end shadow-lg rounded"
+                                aria-labelledby="usuarioBotao">
+                                <a class="dropdown-item" href="#">Perfil</a>
+                                <a href="../html/vizu-especifico.html " class="dropdown-item">Vizualização
+                                    Especifica</a>
+                                <a href="../html/pagina-inicial.html " class="dropdown-item">Sair</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="alunos-section mt-5">
+                        <div class="margem-estudante">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <h1 class="mt-0">
+                                    <span class="d-inline-flex align-items-center titulo-educa">
+                                        Estudantes
+                                        <div class="margem-ordenar">
+                                            <button class="btn btn-secondary btn-sm" id="btnOrdenar">Ordenar</button>
+                                        </div>
+                                    </span>
+                                </h1>
+
+
+                            </div>
+                        </div>
+                        <div class="table-responsive bg-white p-3 rounded shadow-sm mb-4">
+                            <table class="table table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Matrícula</th>
+                                        <th>Curso</th>
+                                        <th>Prob. de evasão</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tabelaAlunosBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section class="charts-section row gx-4">
+                        <div class="col-lg-6 mb-4">
+                            <div class="chart-card d-flex flex-column">
+                                <h4>Alunos ativos no período</h4>
+                                <canvas id="alunosAtivosChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="chart-card d-flex flex-column">
+                                <h4>Chance de evasão</h4>
+                                <canvas id="chanceEvasaoChart"></canvas>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    </div>
+
 
 </body>
+
+</html>
+</body>
+
 </html>
